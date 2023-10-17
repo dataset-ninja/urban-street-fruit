@@ -1,3 +1,3 @@
-# Tree Dataset of Urban Street: Fruit
+# Tree Dataset of Urban Street: Fruit Classification
 
-Urban Street: Fruit is a dataset for classification task.
+Urban Street: Fruit Classification is a dataset for classification task.
