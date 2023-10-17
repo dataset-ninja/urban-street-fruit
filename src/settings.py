@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v3()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental()]
-CATEGORY: Category = Category.Environmental()
+CATEGORY: Category = Category.Environmental(extra=Category.Biology())
 
 CV_TASKS: List[CVTask] = [CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = []
