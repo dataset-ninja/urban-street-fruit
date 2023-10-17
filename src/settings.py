@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = "2022-09-24"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://ytt917251944.github.io/dataset_jekyll/"
+HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-classification-fruit"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 7022746
@@ -56,7 +56,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = [
     "https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"
 ]
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = ["https://ytt917251944.github.io/dataset_jekyll/"]
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
     "GitHub": "https://github.com/ytt917251944/dataset_jekyll"
 }
