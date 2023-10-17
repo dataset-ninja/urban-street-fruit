@@ -13,8 +13,8 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Urban Street: Fruit"
-PROJECT_NAME_FULL: str = "Tree Dataset of Urban Street: Fruit"
+PROJECT_NAME: str = "Urban Street: Fruit Classification"
+PROJECT_NAME_FULL: str = "Tree Dataset of Urban Street: Fruit Classification"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
