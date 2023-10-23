@@ -1,3 +1,5 @@
+from typing import List
+
 from dataset_tools.templates import AnnotationType
 from src.settings import ANNOTATION_TYPES
 
@@ -10,7 +12,7 @@ SAMPLE_RATE = 1  # make less if dataset is too big
 # * Preview class to visualize in SUMMARY.md overview section
 # * Literal["ClassesPreview", "HorizontalGrid", "SideAnnotationsGrid", "Poster", "HorizontalGridAnimated", "VerticalGridAnimated"]
 # * If None, then preview_class will be set automatically to "ClassesPreview"
-PREVIEW_CLASS = "Poster"
+PREVIEW_CLASS = "ClassesPreview"
 
 IS_DETECTION_TASK: bool = None  # ? Set True if you want to visualize only bbox annotations
 if IS_DETECTION_TASK is None:
@@ -58,6 +60,37 @@ CLASSES_PREVIEW_ROW_HEIGHT: int = None
 CLASSES_PREVIEW_PADDINGS: dict = None
 CLASSES_PREVIEW_ROWS: int = None
 CLASSES_PREVIEW_GAP: int = None
+CLASSES_PREVIEW_TAGS: List[str] = [
+    'acer_palmatum', 
+    'albizia_julibrissin', 
+    'celtis_sinensis', 
+    'cinnamomum_camphora_(linn)_presl', 
+    'elaeocarpus_decipiens', 
+    'euonymus_japonicus', 
+    'ginkgo_biloba', 
+    'koelreuteria_paniculata', 
+    'lagerstroemia_indica', 
+    'liquidambar_formosana', 
+    'liriodendron_chinense', 
+    'llex_cornuta', 
+    'magnolia_grandiflora_l', 
+    'magnolia_liliflora_desr', 
+    'malushalliana', 
+    'metasequoia_glyptostroboides', 
+    'michelia_chapensis', 
+    'nandina_domestica', 
+    'photinia_serratifolia', 
+    'pittosporum_tobira', 
+    'platanus', 
+    'platycladus_orientalis_beverlevensis', 
+    'podocarpus_macrophyllus', 
+    'prunus_cerasifera_f._atropurpurea', 
+    'prunus_persica', 
+    'sapindus_saponaria', 
+    'styphnolobium_japonicum', 
+    'taxodium_ascendens_brongn', 
+    'triadica_sebifera'
+    ]
 # default {"top": "10%", "bottom": "10%", "left": "10%", "right": "10%"}
 # set % or px as string values (e.i. "10%" or "10px")
 ###############################################################
@@ -125,6 +158,7 @@ def get_stats_options():
             "pad": CLASSES_PREVIEW_PADDINGS,
             "rows": CLASSES_PREVIEW_ROWS,
             "gap": CLASSES_PREVIEW_GAP,
+            "tags": CLASSES_PREVIEW_TAGS,
         },
         "ClassesHeatmaps": {
             "draw_style": DRAW_STYLE,
