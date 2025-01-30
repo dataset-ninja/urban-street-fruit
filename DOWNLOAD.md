@@ -1,6 +1,6 @@
 Dataset **Urban Street: Fruit Classification** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/0vrt3p7ikafyogqjkoiwm/urban-street-fruit-classification-DatasetNinja.tar?rlkey=ozx7uja6b66aufya4o8py0a35&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI3NTlfVXJiYW4gU3RyZWV0OiBGcnVpdCBDbGFzc2lmaWNhdGlvbi91cmJhbi1zdHJlZXQ6LWZydWl0LWNsYXNzaWZpY2F0aW9uLURhdGFzZXROaW5qYS50YXIiLCAic2lnIjogIm55YXdJOE9iUkdZMEhvMXIxcEowN1pPcHJsLzNENG1pUmc1NUdLOER3azg9In0=)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
